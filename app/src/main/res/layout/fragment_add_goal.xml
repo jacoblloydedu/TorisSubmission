@@ -11,14 +11,28 @@
         android:layout_height="match_parent">
 
         <ImageView
+            android:id="@+id/background2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="center"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/background" />
+
+        <ImageView
             android:id="@+id/imageView6"
             android:layout_width="174dp"
             android:layout_height="159dp"
-            android:layout_marginTop="240dp"
+            android:layout_marginTop="45dp"
             android:src="@drawable/ic_baseline_data_usage_24"
             app:layout_constraintEnd_toEndOf="@+id/inputgoalname"
             app:layout_constraintStart_toStartOf="@+id/inputgoalname"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
 
         <Button
             android:id="@+id/back_home_button"
@@ -60,37 +74,23 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <Button
-            android:id="@+id/ATButton"
-            android:layout_width="72dp"
-            android:layout_height="70dp"
-            android:layout_marginTop="48dp"
-            android:background="@drawable/ic_baseline_add_circle_24"
-            android:clickable="false"
-            android:visibility="invisible"
-            app:layout_constraintEnd_toEndOf="@+id/tietitle2"
-            app:layout_constraintHorizontal_bias="0.428"
-            app:layout_constraintStart_toStartOf="@+id/tietitle2"
-            app:layout_constraintTop_toBottomOf="@+id/inputgoalname" />
-
         <EditText
             android:id="@+id/inputgoalname"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="52dp"
+            android:layout_marginStart="67dp"
+            android:layout_marginTop="420dp"
             android:ems="10"
             android:hint="Type Name of Goal Here"
             android:inputType="textPersonName"
             android:textAlignment="center"
             android:textSize="24sp"
             android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf="@+id/ATButton"
-            app:layout_constraintHorizontal_bias="0.49"
-            app:layout_constraintStart_toStartOf="@+id/ATButton"
-            app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <Button
-            android:id="@+id/savebutton"
+            android:id="@+id/bn_save_goal"
             android:layout_width="76dp"
             android:layout_height="75dp"
             android:layout_marginStart="312dp"
@@ -131,14 +131,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="164dp"
+            android:layout_marginTop="68dp"
             android:layout_marginEnd="164dp"
-            android:layout_marginBottom="4dp"
             android:text="Add Ties"
             android:textSize="20sp"
-            app:layout_constraintBottom_toTopOf="@+id/ATButton"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.25"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/inputgoalname" />
 
         <TextView
             android:id="@+id/textView4"
@@ -162,8 +161,36 @@
             android:text="Add Goal"
             android:textAlignment="center"
             android:textSize="34sp"
-            app:layout_constraintEnd_toStartOf="@+id/savebutton"
+            app:layout_constraintEnd_toStartOf="@+id/bn_save_goal"
             app:layout_constraintStart_toEndOf="@+id/back_home_button"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/goal_date_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="478dp"
+            android:ems="10"
+            android:hint="DueDate MMDDYYYY"
+            android:inputType="date"
+            android:textAlignment="center"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/goal_id_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="373dp"
+            android:layout_marginEnd="100dp"
+            android:ems="10"
+            android:hint="Enter Unique Goal ID"
+            android:inputType="number"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>

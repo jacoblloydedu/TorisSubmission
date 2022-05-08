@@ -11,15 +11,17 @@
         <entry key="..\:/Users/PD/AndroidStudioProjects/Toris/app/src/main/res/drawable/ic_settings.xml" value="0.112" />
         <entry key="..\:/Users/PD/AndroidStudioProjects/Toris/app/src/main/res/drawable/ic_torislogo.xml" value="0.353" />
         <entry key="..\:/Users/PD/AndroidStudioProjects/Toris/app/src/main/res/drawable/settingsicon.xml" value="0.353" />
-        <entry key="..\:/Users/PD/AndroidStudioProjects/Toris/app/src/main/res/layout/activity_add_goal.xml" value="0.25" />
+        <entry key="..\:/Users/PD/AndroidStudioProjects/Toris/app/src/main/res/layout/activity_add_goal.xml" value="0.17407407407407408" />
         <entry key="..\:/Users/PD/AndroidStudioProjects/Toris/app/src/main/res/layout/activity_display_message.xml" value="0.1" />
-        <entry key="..\:/Users/PD/AndroidStudioProjects/Toris/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/PD/AndroidStudioProjects/Toris/app/src/main/res/layout/activity_main.xml" value="0.1327683615819209" />
         <entry key="..\:/Users/PD/AndroidStudioProjects/Toris/app/src/main/res/layout/activity_settings.xml" value="0.25" />
-        <entry key="..\:/Users/PD/AndroidStudioProjects/Toris/app/src/main/res/layout/fragment_add_goal.xml" value="0.2975630611372381" />
+        <entry key="..\:/Users/PD/AndroidStudioProjects/Toris/app/src/main/res/layout/fragment_add_goal.xml" value="0.33" />
+        <entry key="..\:/Users/PD/AndroidStudioProjects/Toris/app/src/main/res/layout/fragment_blank.xml" value="0.1" />
         <entry key="..\:/Users/PD/AndroidStudioProjects/Toris/app/src/main/res/layout/fragment_home.xml" value="0.25" />
         <entry key="..\:/Users/PD/AndroidStudioProjects/Toris/app/src/main/res/layout/fragment_read_user.xml" value="0.1" />
         <entry key="..\:/Users/PD/AndroidStudioProjects/Toris/app/src/main/res/layout/fragment_read_user2.xml" value="0.1" />
         <entry key="..\:/Users/PD/AndroidStudioProjects/Toris/app/src/main/res/layout/fragment_settings.xml" value="0.2975630611372381" />
+        <entry key="..\:/Users/PD/AndroidStudioProjects/Toris/app/src/main/res/layout/fragment_view_goal.xml" value="0.13202247191011235" />
         <entry key="..\:/Users/PD/AndroidStudioProjects/Toris/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.353" />
         <entry key="..\:/Users/PD/AndroidStudioProjects/Toris/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1935" />
       </map>
